@@ -30,3 +30,4 @@ jobs:
           git config --global user.email "bot@qshiftlab.com"
           git add data/events.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update live quantum events feed [skip ci]" && git push)
+
