@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>qshift. // Applied Quantum Research Console</title>
   <meta name="description" content="Applied Quantum Architecture & Benchmark Console for Singapore. Reproducible RFC challenge formulations, regional quantum stack directory, and hardware telemetry.">
-  <link rel="icon" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <style>
     :root {
       --solace-navy: #002233;
@@ -56,23 +59,30 @@
     .brand-badge {
       width: 40px;
       height: 40px;
-      background: var(--solace-mint);
-      border-radius: 6px;
+      background: #181e50;
+      border-radius: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--solace-dark);
-      font-weight: 800;
-      font-size: 20px;
-      font-family: var(--sans);
       margin-bottom: 24px;
       cursor: pointer;
-      box-shadow: 0 4px 12px var(--solace-mint-glow);
-      transition: transform 0.15s ease;
+      box-shadow: 0 4px 14px rgba(0, 200, 150, 0.25);
+      border: 1px solid rgba(0, 200, 150, 0.4);
+      overflow: hidden;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+
+    .brand-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .brand-badge:hover {
-      transform: scale(1.04);
+      transform: scale(1.06);
+      border-color: var(--solace-mint);
+      box-shadow: 0 6px 18px var(--solace-mint-glow);
     }
 
     .nav-icons {
@@ -1106,7 +1116,9 @@
 
   <!-- SOLACE DARK NAVIGATION RAIL -->
   <aside class="sidebar">
-    <div class="brand-badge" title="qshift. Applied Quantum Console" onclick="switchTab('insights')">Q.</div>
+    <div class="brand-badge" title="qshift. Applied Quantum Console" onclick="switchTab('insights')">
+      <img src="./brand-badge.png" alt="qshift. Applied Quantum Console">
+    </div>
     <div class="nav-icons">
       <!-- Enterprise Solutions / Commercial Gateway -->
       <div class="nav-item" id="btn-enterprise" data-tooltip="Enterprise &amp; Quantum Offerings" onclick="switchTab('enterprise')">
@@ -1916,7 +1928,10 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
     </div>
     <div class="portal-box">
-      <div class="portal-brand">qshift.</div>
+      <div class="portal-brand" style="display:flex; align-items:center; justify-content:center; gap:12px;">
+        <img src="./brand-badge.png" alt="qshift." style="width:38px; height:38px; border-radius:8px; box-shadow:0 4px 12px rgba(0,200,150,0.3); border:1px solid rgba(0,200,150,0.4);">
+        <span>qshift.</span>
+      </div>
       <div class="portal-group">
         <label class="portal-label">Email</label>
         <input type="email" class="portal-input" value="gwenlynn.lim@gmail.com" readonly>
