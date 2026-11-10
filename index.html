@@ -716,6 +716,257 @@
     .portal-close-hint:hover {
       color: #ffffff;
     }
+
+    /* -------------------------------------------
+       ENTERPRISE LANDING & COMMERCIAL CTAS
+    ------------------------------------------- */
+    .cta-topbar-btn {
+      background: var(--solace-mint);
+      color: var(--solace-dark);
+      border: none;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 13px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .cta-topbar-btn:hover {
+      background: var(--solace-mint-hover);
+      box-shadow: 0 2px 8px var(--solace-mint-glow);
+    }
+
+    .enterprise-hero-ctas {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary-mint {
+      background: var(--solace-mint);
+      color: var(--solace-dark);
+      font-weight: 600;
+      font-size: 13.5px;
+      padding: 9px 18px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.15s ease;
+      box-shadow: 0 2px 8px var(--solace-mint-glow);
+    }
+
+    .btn-primary-mint:hover {
+      background: var(--solace-mint-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background: #ffffff;
+      color: var(--text-main);
+      font-weight: 500;
+      font-size: 13.5px;
+      padding: 9px 18px;
+      border-radius: 5px;
+      border: 1px solid var(--border-subtle);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--text-muted);
+      background: #f8fafc;
+      transform: translateY(-1px);
+    }
+
+    .enterprise-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
+    .enterprise-card {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .enterprise-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+      transform: translateY(-2px);
+    }
+
+    .enterprise-badge {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 3px;
+      margin-bottom: 12px;
+      width: fit-content;
+    }
+
+    .badge-pqc { background: #fdf4ff; color: #a21caf; border: 1px solid #f0abfc; }
+    .badge-opt { background: #f0fdf4; color: #15803d; border: 1px solid #86efac; }
+    .badge-stack { background: #eff6ff; color: #1d4ed8; border: 1px solid #93c5fd; }
+
+    .enterprise-card-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+
+    .enterprise-card-sub {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .enterprise-card-list {
+      list-style: none;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .enterprise-card-list li {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 9px;
+      position: relative;
+      padding-left: 20px;
+      line-height: 1.45;
+    }
+
+    .enterprise-card-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--solace-mint-hover);
+      font-weight: 700;
+    }
+
+    .enterprise-card-footer {
+      border-top: 1px solid #f1f5f9;
+      padding-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .target-domain-label {
+      font-size: 11.5px;
+      color: var(--text-faint);
+      font-family: var(--mono);
+    }
+
+    .action-cta-link {
+      color: #0284c7;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+
+    .action-cta-link:hover {
+      text-decoration: underline;
+      color: #0369a1;
+    }
+
+    .scoping-card {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 28px 32px;
+      margin-top: 32px;
+      max-width: 920px;
+    }
+
+    .scoping-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .scoping-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .form-select, .form-input, .form-textarea {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      font-size: 13px;
+      font-family: var(--sans);
+      background: #f8fafc;
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .form-select:focus, .form-input:focus, .form-textarea:focus {
+      border-color: var(--solace-mint);
+      background: #ffffff;
+    }
+
+    .contact-metadata-row {
+      display: flex;
+      gap: 32px;
+      padding-top: 20px;
+      margin-top: 20px;
+      border-top: 1px solid #f1f5f9;
+      font-size: 12.5px;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+    }
+
+    .contact-meta-item strong {
+      color: var(--text-main);
+      display: block;
+      margin-bottom: 2px;
+    }
+
   </style>
 </head>
 <body>
@@ -724,6 +975,10 @@
   <aside class="sidebar">
     <div class="brand-badge" title="qshift. Applied Quantum Console" onclick="switchTab('insights')">Q.</div>
     <div class="nav-icons">
+      <!-- Enterprise Solutions / Commercial Gateway -->
+      <div class="nav-item" id="btn-enterprise" data-tooltip="Enterprise &amp; Quantum Offerings" onclick="switchTab('enterprise')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+      </div>
       <!-- Insights -->
       <div class="nav-item active" id="btn-insights" data-tooltip="Insights &amp; Telemetry" onclick="switchTab('insights')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
@@ -767,6 +1022,10 @@
         <strong id="breadcrumb-current">Insights</strong>
       </div>
       <div class="top-actions">
+        <button class="cta-topbar-btn" onclick="switchTab('enterprise')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          Enterprise Solutions
+        </button>
         <div class="env-pill">
           <span style="display:inline-block; width:6px; height:6px; background:#10b981; border-radius:50%;"></span>
           SG-CENTRAL // CQT NODE
@@ -777,6 +1036,207 @@
 
     <!-- CONTENT SCROLL AREA -->
     <main class="content-area">
+
+      <!-- ==============================================
+           TAB 0: ENTERPRISE & QUANTUM STACK OFFERINGS (LANDING TAB)
+      =============================================== -->
+      <div class="tab-panel" id="tab-enterprise">
+        <div class="category-kicker">Enterprise Solutions // Regional Quantum Stack Offering</div>
+        <h1 class="page-title">Accelerate Your Quantum Transition with Singapore's Applied Architecture</h1>
+        <p class="page-desc">
+          QShift provides production-grade algorithmic formulation, NIST CAVP-certified post-quantum cryptography (PQC) migration, and sovereign access to Singapore’s distributed quantum computing infrastructure for enterprises, financial institutions, and government bodies.
+        </p>
+
+        <!-- Quick CTAs -->
+        <div class="enterprise-hero-ctas">
+          <a href="mailto:hello@qshiftlab.com?subject=Enterprise%20Applied%20Quantum%20Scoping%20Inquiry" class="btn-primary-mint">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Schedule an Applied Scoping Session
+          </a>
+          <button class="btn-outline" onclick="switchTab('rfcs')">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+            Explore RFC Specifications
+          </button>
+          <button class="btn-outline" onclick="switchTab('stack')">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            Inspect Singapore Quantum Stack
+          </button>
+        </div>
+
+        <!-- Solace Highlight Card -->
+        <div class="highlight-card">
+          <div class="highlight-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span>QShift Institutional Assurance &amp; Governance</span>
+          </div>
+          <div class="highlight-body">
+            <p><strong>Zero Pop-Science Policy:</strong> We do not publish speculative quantum supremacy claims. Every algorithmic formulation is rigorously benchmarked against the strongest available classical baseline (Gurobi 11.0, COIN-OR CBC, and AutoDock Vina).</p>
+            <p><strong>NIST CAVP A7970 Compliance:</strong> Cryptographic implementations follow ratified NIST FIPS 203 (ML-KEM), FIPS 204 (ML-DSA), and FIPS 205 (SLH-DSA) post-quantum specifications with sub-12ms latency overhead.</p>
+            <p><strong>Sovereign Singapore Data Boundaries:</strong> All client proprietary models, financial time-series, and grid parameters remain strictly on-premise or within Singapore-domiciled sovereign VPC enclaves.</p>
+          </div>
+        </div>
+
+        <!-- 3 Core Commercial Offerings -->
+        <div class="section-headline">Commercial Engagement Offerings</div>
+        <div class="enterprise-grid">
+
+          <!-- Pillar 1 -->
+          <div class="enterprise-card">
+            <div>
+              <span class="enterprise-badge badge-pqc">Track 01 // Cybersecurity</span>
+              <div class="enterprise-card-title">NIST CAVP Post-Quantum Cryptography (PQC) Audit &amp; Migration</div>
+              <div class="enterprise-card-sub">Protect mission-critical data assets against "Harvest Now, Decrypt Later" quantum adversary campaigns.</div>
+              <ul class="enterprise-card-list">
+                <li>Automated cryptographic inventory discovery across legacy TLS, SSH, and VPN endpoints.</li>
+                <li>Hybrid key encapsulation staging: X25519 + ML-KEM-768 with zero downtime.</li>
+                <li>NIST CAVP A7970 validation and Hardware Security Module (HSM) firmware certification.</li>
+                <li>Benchmarked latency verification (&lt; 12ms handshake overhead).</li>
+              </ul>
+            </div>
+            <div class="enterprise-card-footer">
+              <span class="target-domain-label">FINTECH // TELCO // CRITICAL INFRA</span>
+              <a href="mailto:hello@qshiftlab.com?subject=Enterprise%20PQC%20Readiness%20Audit%20Inquiry" class="action-cta-link">Request Audit Blueprint &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="enterprise-card">
+            <div>
+              <span class="enterprise-badge badge-opt">Track 02 // Mathematical Optimization</span>
+              <div class="enterprise-card-title">Industrial Combinatorial Optimization &amp; RFC Co-Formulation</div>
+              <div class="enterprise-card-sub">Eliminate exponential timeouts in high-dimensional mixed-integer linear programming (MILP).</div>
+              <ul class="enterprise-card-list">
+                <li>Mathematical mapping of industrial constraints into QUBO and Ising Hamiltonian forms.</li>
+                <li>Empirical side-by-side benchmarking against Gurobi 11.0 and state-of-the-art classical solvers.</li>
+                <li>Custom QAOA / VQE ansatz compilation with 0-SWAP routing on native QPUs.</li>
+                <li>Co-authored RFC technical specifications and provable convergence guarantees.</li>
+              </ul>
+            </div>
+            <div class="enterprise-card-footer">
+              <span class="target-domain-label">MARITIME // BESS // ASSET MGMT</span>
+              <a href="mailto:hello@qshiftlab.com?subject=Industrial%20Combinatorial%20Optimization%20Benchmark%20Inquiry" class="action-cta-link">Commission Benchmark &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="enterprise-card">
+            <div>
+              <span class="enterprise-badge badge-stack">Track 03 // Compute Infrastructure</span>
+              <div class="enterprise-card-title">Singapore Sovereign Quantum Stack Integration</div>
+              <div class="enterprise-card-sub">Provision direct, multi-tenant API access to regional cryogenic nodes, QPUs, and emulators.</div>
+              <ul class="enterprise-card-list">
+                <li>Enterprise HAL (Hardware Abstraction Layer) middleware connecting into Layers 01–06.</li>
+                <li>Direct QPU queue prioritization on IonQ, CQT trapped-ion, and neutral atom platforms.</li>
+                <li>Noise-mitigated zero-noise extrapolation (ZNE) and probabilistic error cancellation (PEC).</li>
+                <li>SLA-backed uptime guarantees and sovereign Singapore data residency compliance.</li>
+              </ul>
+            </div>
+            <div class="enterprise-card-footer">
+              <span class="target-domain-label">ENTERPRISE R&amp;D // GOV // QUANT LABS</span>
+              <a href="mailto:hello@qshiftlab.com?subject=Sovereign%20Quantum%20Stack%20Access%20Inquiry" class="action-cta-link">Request API Provisioning &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Engagement Models Matrix -->
+        <div class="section-headline">Structured Enterprise Engagement Tracks</div>
+        <table class="stack-table" style="margin-bottom:32px;">
+          <thead>
+            <tr>
+              <th style="width:160px;">Engagement Track</th>
+              <th style="width:120px;">Duration</th>
+              <th>Scope &amp; Technical Deliverables</th>
+              <th style="width:180px;">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="layer-badge" style="background:#00C896; color:#001926;">Sprint</span></td>
+              <td><strong>4 Weeks</strong></td>
+              <td><strong>Applied Problem Scoping &amp; Baseline Audit:</strong> Problem formulation into QUBO/MILP, classical Gurobi 11.0 baseline establishment, NISQ feasibility evaluation, and preliminary convergence report.</td>
+              <td><a href="mailto:hello@qshiftlab.com?subject=Inquiry%20-%204-Week%20Applied%20Benchmark%20Sprint" class="action-cta-link">Book 4-Week Sprint &rarr;</a></td>
+            </tr>
+            <tr>
+              <td><span class="layer-badge" style="background:#7c3aed; color:#ffffff;">Pilot</span></td>
+              <td><strong>12 Weeks</strong></td>
+              <td><strong>Production Pilot &amp; Hardware Execution:</strong> End-to-end PQC hybrid tunnel deployment or QPU-accelerated optimization harness running on regional Singapore hardware with custom error mitigation.</td>
+              <td><a href="mailto:hello@qshiftlab.com?subject=Inquiry%20-%2012-Week%20Production%20Pilot" class="action-cta-link">Initiate Pilot Program &rarr;</a></td>
+            </tr>
+            <tr>
+              <td><span class="layer-badge" style="background:#0284c7; color:#ffffff;">Retainer</span></td>
+              <td><strong>Annual</strong></td>
+              <td><strong>Sovereign Research Partnership:</strong> Dedicated applied mathematics team, reserved QPU hardware allocations, joint RFC publication rights, and advisory seats on emerging quantum standards.</td>
+              <td><a href="mailto:hello@qshiftlab.com?subject=Inquiry%20-%20Sovereign%20Research%20Retainer" class="action-cta-link">Discuss Retainer Terms &rarr;</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Interactive Scoping Card -->
+        <div class="scoping-card">
+          <div class="scoping-header">
+            <div>
+              <div class="category-kicker" style="margin-bottom:4px;">Direct Scoping Generator</div>
+              <h3 style="font-size:18px; font-weight:600; color:var(--text-main);">Request an Applied Benchmark or Quantum Stack Scoping Session</h3>
+            </div>
+            <span class="rfc-domain" style="background:#ecfdf5; color:#065f46; border:1px solid #a7f3d0;">24H Response SLA</span>
+          </div>
+
+          <div class="scoping-grid">
+            <div class="form-group">
+              <label for="scopeDomain">Industry / Operational Domain</label>
+              <select class="form-select" id="scopeDomain">
+                <option value="Maritime & Port Logistics (Berthing / Crane Routing)">Maritime &amp; Port Logistics (Berthing / Crane Routing)</option>
+                <option value="Energy & Power Systems (BESS Swarm / VPP Dispatch)">Energy &amp; Power Systems (BESS Swarm / VPP Dispatch)</option>
+                <option value="Fintech & Banking (PQC Migration / VaR Risk)">Fintech &amp; Banking (PQC Migration / VaR Risk)</option>
+                <option value="Sovereign Compute & Gov Tech (QPU Stack Access)">Sovereign Compute &amp; Gov Tech (QPU Stack Access)</option>
+                <option value="Biopharma & Molecular Docking">Biopharma &amp; Molecular Docking</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="scopeTrack">Desired Engagement Track</label>
+              <select class="form-select" id="scopeTrack">
+                <option value="4-Week Applied Benchmark Sprint">4-Week Applied Benchmark Sprint</option>
+                <option value="12-Week Production Pilot & Hardware Execution">12-Week Production Pilot &amp; Hardware Execution</option>
+                <option value="NIST CAVP A7970 PQC Readiness Audit">NIST CAVP A7970 PQC Readiness Audit</option>
+                <option value="Annual Sovereign Research Retainer">Annual Sovereign Research Retainer</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-bottom:18px;">
+            <label for="scopeNotes">Problem Statement / Technical Constraints (Optional)</label>
+            <textarea class="form-textarea" id="scopeNotes" rows="3" placeholder="Describe your existing classical bottleneck, target scale (e.g. 100 MW BESS, 10,000 TEU berths), or PQC endpoints..."></textarea>
+          </div>
+
+          <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+            <button class="btn-primary-mint" onclick="submitEnterpriseBrief()">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"></path></svg>
+              Open Email Client with Scoping Brief
+            </button>
+            <button class="btn-outline" onclick="copyEnterpriseBrief()">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              Copy Brief to Clipboard
+            </button>
+            <span id="copyConfirmNotice" style="font-size:12.5px; color:#10b981; font-weight:600; display:none;">✓ Copied to clipboard!</span>
+          </div>
+
+          <div class="contact-metadata-row">
+            <div class="contact-meta-item">
+              <strong>Direct Inquiries</strong>
+              <span>hello@qshiftlab.com</span>
+            </div>
+            <div class="contact-meta-item">
+              <strong>Research Node</strong>
+              <span>Singapore // CQT &amp; NTU Quantum Ecosystem Hub</span>
+            </div>
+            <div class="contact-meta-item">
+              <strong>Confidentiality</strong>
+              <span>Mutual NDA Executed Prior to Model Ingestion</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- ==============================================
            TAB 1: INSIGHTS (DIRECT SOLACE MATCH)
@@ -1062,6 +1522,7 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
       const breadcrumb = document.getElementById('breadcrumb-current');
       if (breadcrumb) {
         const titles = {
+          'enterprise': 'Enterprise Solutions & Quantum Stack Offerings',
           'insights': 'Insights',
           'rfcs': 'RFC Specifications',
           'stack': 'Singapore Quantum Stack',
@@ -1090,6 +1551,50 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
       if (input) input.focus();
     }
 
+
+    function submitEnterpriseBrief() {
+      const domain = document.getElementById('scopeDomain').value;
+      const track = document.getElementById('scopeTrack').value;
+      const notes = document.getElementById('scopeNotes').value.trim() || 'No specific notes provided.';
+      
+      const subject = encodeURIComponent('Enterprise Quantum Scoping Request: ' + domain);
+      const body = encodeURIComponent(
+        'Dear QShift Applied Quantum Team,\n\n' +
+        'We would like to request an enterprise scoping session with the following parameters:\n\n' +
+        'Operational Domain: ' + domain + '\n' +
+        'Engagement Track: ' + track + '\n' +
+        'Technical Context / Constraints: ' + notes + '\n\n' +
+        'Best regards,\n' +
+        '[Your Name / Organization]'
+      );
+      window.location.href = 'mailto:hello@qshiftlab.com?subject=' + subject + '&body=' + body;
+    }
+
+    function copyEnterpriseBrief() {
+      const domain = document.getElementById('scopeDomain').value;
+      const track = document.getElementById('scopeTrack').value;
+      const notes = document.getElementById('scopeNotes').value.trim() || 'No specific notes provided.';
+
+      const briefText = 
+        'Enterprise Quantum Scoping Request\n' +
+        '=================================\n' +
+        'Recipient: hello@qshiftlab.com\n' +
+        'Operational Domain: ' + domain + '\n' +
+        'Engagement Track: ' + track + '\n' +
+        'Technical Context: ' + notes + '\n' +
+        'Timestamp: ' + new Date().toISOString();
+
+      navigator.clipboard.writeText(briefText).then(() => {
+        const notice = document.getElementById('copyConfirmNotice');
+        if (notice) {
+          notice.style.display = 'inline';
+          setTimeout(() => { notice.style.display = 'none'; }, 3000);
+        }
+      }).catch(err => {
+        alert('Brief copied to clipboard!');
+      });
+    }
+
     // Interactive CLI Logic
     const cliInput = document.getElementById('cliInput');
     const cliOutput = document.getElementById('cliOutput');
@@ -1112,12 +1617,27 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
     function handleCLICommand(cmd) {
       if (cmd === 'help') {
         cliOutput.textContent += `Available commands:
+  enterprise    Display enterprise engagement tracks & commercial CTAs
   status        Check health of regional quantum nodes & PQC validator
   rfc list      Display active RFC candidate specifications
   rfc <id>      View specific RFC (e.g. 'rfc 01', 'rfc 06')
   stack         Display the 6-layer Singapore Quantum Stack
+  contact       Display institutional inquiry channels
   clear         Clear the terminal screen
   version       Display QShift console runtime version`;
+      } else if (cmd === 'enterprise' || cmd === 'offerings' || cmd === 'cta' || cmd === 'solutions') {
+        cliOutput.textContent += `QSHIFT ENTERPRISE SOLUTIONS & OFFERINGS:
+  1. NIST CAVP PQC Audit & Hybrid Migration (FIPS 203/204/205 compliant, < 12ms overhead)
+  2. Industrial Combinatorial Optimization Benchmarks (QUBO vs. Gurobi 11.0 on port/grid assets)
+  3. Sovereign Singapore Quantum Stack Integration (Layers 01-06 QPU API provisioning)
+
+  Engagement Tracks: 4-Week Sprint | 12-Week Pilot | Annual Sovereign Retainer
+  Direct Contact: hello@qshiftlab.com | Switch tab via: switchTab('enterprise')`;
+        switchTab('enterprise');
+      } else if (cmd === 'contact') {
+        cliOutput.textContent += `QShift Institutional Inquiries: hello@qshiftlab.com
+Physical Hub: Singapore // CQT & NTU Quantum Ecosystem
+Response SLA: < 24 Hours for enterprise and sovereign briefs.`;
       } else if (cmd === 'status') {
         cliOutput.textContent += `[OK] SG-Central CQT Telemetry Node: ACTIVE (Latency: 1.4ms)
 [OK] NIST CAVP A7970 Cryptographic Engine: MOUNTED
