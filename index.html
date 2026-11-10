@@ -967,6 +967,139 @@
       margin-bottom: 2px;
     }
 
+
+    /* -------------------------------------------
+       APPLIED PROJECT BRIEFS (NTU PaCE x QSHIFT)
+    ------------------------------------------- */
+    .brief-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--card-lavender-border);
+      font-size: 12.5px;
+    }
+    .brief-meta-col strong {
+      display: block;
+      color: var(--text-main);
+      margin-bottom: 2px;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    .brief-card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+    .project-brief-card {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 26px 30px;
+      transition: all 0.15s ease;
+    }
+    .project-brief-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+    .brief-top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .brief-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+    .brief-subtitle {
+      font-size: 12.5px;
+      font-family: var(--mono);
+      color: var(--text-faint);
+    }
+    .brief-section-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin: 16px 0 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .brief-text {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .sprint-timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin: 14px 0 18px;
+    }
+    .sprint-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 14px 16px;
+    }
+    .sprint-box-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .sprint-badge {
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 3px;
+      background: #e2e8f0;
+      color: #334155;
+    }
+    .sprint-weeks {
+      font-size: 11.5px;
+      color: var(--text-faint);
+      font-weight: 500;
+    }
+    .sprint-box-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+    .sprint-box-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .stack-chip-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+    .stack-chip {
+      font-family: var(--mono);
+      font-size: 11.5px;
+      background: #f1f5f9;
+      color: #334155;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid #e2e8f0;
+    }
+
   </style>
 </head>
 <body>
@@ -986,6 +1119,10 @@
       <!-- RFC Specs -->
       <div class="nav-item" id="btn-rfcs" data-tooltip="RFC Specifications" onclick="switchTab('rfcs')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+      </div>
+      <!-- Applied Project Briefs / NTU PaCE -->
+      <div class="nav-item" id="btn-briefs" data-tooltip="Applied Project Briefs (NTU PaCE x QShift)" onclick="switchTab('briefs')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
       </div>
       <!-- Singapore Stack -->
       <div class="nav-item" id="btn-stack" data-tooltip="Singapore Quantum Stack" onclick="switchTab('stack')">
@@ -1374,6 +1511,293 @@
       </div>
 
       <!-- ==============================================
+           TAB: APPLIED PROJECT BRIEFS (NTU PaCE x QSHIFT)
+      =============================================== -->
+      <div class="tab-panel" id="tab-briefs">
+        <div class="category-kicker">Academic &amp; Industry Sprints // NTU PaCE x QShift</div>
+        <h1 class="page-title">Applied Quantum Industry Project Briefs</h1>
+        <p class="page-desc">
+          Structured 6-week applied engineering sprints designed for NTU PaCE learners (SkillsFuture Career Transition Programme — Data Science &amp; AI) and university researchers. Builders form squads of 2–3 to formulate, benchmark, and deploy functioning open-source Python MVPs addressing real-world industrial and sovereign quantum workloads.
+        </p>
+
+        <!-- Action CTAs -->
+        <div class="enterprise-hero-ctas">
+          <a href="./docs/NTU_PaCE_x_Cybrdeck_Applied_Industry_Project_Briefs.pdf" target="_blank" class="btn-primary-mint">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download NTU PaCE Briefs (PDF)
+          </a>
+          <a href="mailto:hello@qshiftlab.com?subject=NTU%20PaCE%20x%20QShift%20Capstone%20Squad%20Inquiry" class="btn-outline">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+            Propose Capstone Squad / Register
+          </a>
+          <button class="btn-outline" onclick="switchTab('rfcs')">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+            Cross-Reference RFC Formulations
+          </button>
+        </div>
+
+        <!-- Cohort & Sprints Architecture Card -->
+        <div class="highlight-card">
+          <div class="highlight-header">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            <span>Cohort Architecture &amp; Delivery Rhythm (6-Week Sprint)</span>
+          </div>
+          <div class="highlight-body">
+            <p><strong>Pedagogical Model:</strong> Three 2-week iterative sprints designed to transition high-conviction learners into verified applied engineering roles through live problem statements rather than toy textbook exercises.</p>
+            <p><strong>Code Review Cadence:</strong> Weekly 90-minute technical standups with line-by-line PR reviews, automated GitHub Actions CI/CD validation, and baseline classical benchmarking.</p>
+            <div class="brief-meta-grid">
+              <div class="brief-meta-col">
+                <strong>Lead Mentor</strong>
+                <span>Gwendalynn Lim (Quantum Systems Architect &amp; Tech Lead, QShift / Eve Count)</span>
+              </div>
+              <div class="brief-meta-col">
+                <strong>Co-Mentor / Reviewer</strong>
+                <span>Benjamin Lim (Co-Founder, Cybrdeck Systems)</span>
+              </div>
+              <div class="brief-meta-col">
+                <strong>Squad Structure</strong>
+                <span>Recommended Squads of 2–3 Builders</span>
+              </div>
+              <div class="brief-meta-col">
+                <strong>Closing Showcase</strong>
+                <span>45-Minute Live Technical Demo &amp; Industry Defense</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- THE 3 APPLIED BRIEFS -->
+        <div class="section-headline">Curated Applied Industry Project Briefs</div>
+        <div class="brief-card-container">
+
+          <!-- BRIEF 1 -->
+          <div class="project-brief-card">
+            <div class="brief-top-header">
+              <div>
+                <span class="enterprise-badge badge-opt">Brief 01 // Ingestion &amp; Mathematical Modeling</span>
+                <div class="brief-title">Industrial Problem-to-QUBO Compilation &amp; Hamiltonian Ingestion Pipeline</div>
+                <div class="brief-subtitle">Track: Mathematical Formulation &amp; Compilation | Sector Case: Maritime &amp; BESS Grid Dispatch</div>
+              </div>
+              <span class="sprint-badge" style="background:#ecfdf5; color:#065f46; border:1px solid #a7f3d0;">Option 1 Active</span>
+            </div>
+
+            <div class="brief-section-title">1. Executive Context &amp; Problem Statement</div>
+            <div class="brief-text">
+              Industrial problem owners (PSA port berthing, EMA grid-scale BESS storage, logistics networks) express operational bottlenecks in Mixed-Integer Linear Programming (MILP) format. To execute on quantum annealers or variational circuits (QAOA/VQE), these constraints must be mapped into Quadratic Unconstrained Binary Optimization (QUBO) matrices or Pauli-$Z$ Ising Hamiltonians. If penalty multipliers ($A, B$) are miscalibrated, the quantum solver converges to mathematically invalid, infeasible states. Learners build an automated ingestion and compilation pipeline that validates problem schemas, synthesizes exact quadratic penalty budgets, and verifies solution feasibility against classical SOTA solvers.
+            </div>
+
+            <div class="brief-section-title">2. Learner Deliverables &amp; Technical Scope</div>
+            <div class="brief-text">
+              ● <strong>Constraint Ingestion &amp; Normalization:</strong> Ingests JSON/tabular operational inputs (decision variables, inequality bounds, coupling matrices).<br>
+              ● <strong>Automated Penalty Multiplier Synthesis:</strong> Computes analytical lower bounds on penalty coefficients $A \gg B$ to guarantee forward invariance of the feasible set.<br>
+              ● <strong>Classical Baseline Solver Harness:</strong> Solves identical problem instances using Gurobi 11.0 / COIN-OR CBC to record baseline runtime, memory footprint, and optimality gaps.<br>
+              ● <strong>Quantum Hamiltonian Generation:</strong> Emits validated Qiskit / PennyLane / OpenQASM Hamiltonians with minimum ancilla slack bit overhead.
+            </div>
+
+            <div class="brief-section-title">3. Bi-Weekly Delivery Rhythm</div>
+            <div class="sprint-timeline">
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 1</span>
+                  <span class="sprint-weeks">Weeks 1–2</span>
+                </div>
+                <div class="sprint-box-title">Ingestion &amp; Schema Contracts</div>
+                <div class="sprint-box-desc">Define Pydantic data contracts for MILP constraints; build ingestion pipeline; reject malformed inputs; establish Gurobi classical baseline.</div>
+              </div>
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 2</span>
+                  <span class="sprint-weeks">Weeks 3–4</span>
+                </div>
+                <div class="sprint-box-title">Penalty Synthesis &amp; Slack Reduction</div>
+                <div class="sprint-box-desc">Implement analytical penalty multiplier calculation; minimize slack variables via logarithmic encoding; verify no false-positive ground states.</div>
+              </div>
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 3</span>
+                  <span class="sprint-weeks">Weeks 5–6</span>
+                </div>
+                <div class="sprint-box-title">Service Encapsulation &amp; Showcase</div>
+                <div class="sprint-box-desc">Package as an installable Python package/CLI; generate benchmark comparison plots against classical baselines; present live 45-min demo.</div>
+              </div>
+            </div>
+
+            <div class="brief-section-title">4. Suggested Tooling &amp; Stack</div>
+            <div class="stack-chip-row">
+              <span class="stack-chip">Python 3.11+</span>
+              <span class="stack-chip">Qiskit Optimization</span>
+              <span class="stack-chip">PennyLane</span>
+              <span class="stack-chip">Gurobi 11.0 / SciPy</span>
+              <span class="stack-chip">Pydantic v2</span>
+              <span class="stack-chip">GitHub Actions</span>
+            </div>
+          </div>
+
+          <!-- BRIEF 2 -->
+          <div class="project-brief-card">
+            <div class="brief-top-header">
+              <div>
+                <span class="enterprise-badge badge-pqc">Brief 02 // Quantum Runtime &amp; Telemetry</span>
+                <div class="brief-title">QPU Telemetry &amp; Noise Mitigation Triage Pipeline</div>
+                <div class="brief-subtitle">Track: Operations &amp; Decision Intelligence | Sector Case: Singapore Quantum Stack Telemetry</div>
+              </div>
+              <span class="sprint-badge" style="background:#fdf4ff; color:#a21caf; border:1px solid #f0abfc;">Option 1 Active</span>
+            </div>
+
+            <div class="brief-section-title">1. Executive Context &amp; Problem Statement</div>
+            <div class="brief-text">
+              In real-world quantum hardware operations (IonQ, CQT trapped-ion, AWS Braket), physical parameters drift across calibration cycles—energy relaxation ($T_1$), dephasing ($T_2$), two-qubit gate fidelities, and readout crosstalk fluctuate dynamically. Submitting variational circuits without checking calibration health wastes cloud budgets and yields pure noise. Learners build an anomaly triage pipeline that monitors hardware telemetry, scores calibration drift anomalies, and routes quantum jobs through appropriate error mitigation (ZNE / PEC) or gracefully triggers classical failover.
+            </div>
+
+            <div class="brief-section-title">2. Learner Deliverables &amp; Technical Scope</div>
+            <div class="brief-text">
+              ● <strong>Calibration Telemetry Ingestion:</strong> Ingests daily QPU calibration snapshots (qubit graph topology, error matrices, coherence time-series).<br>
+              ● <strong>Statistical Anomaly Scoring:</strong> Detects multi-qubit crosstalk spikes, coherence degradation, and gate error outliers using rolling z-scores and IQR bounds.<br>
+              ● <strong>Automated Mitigation Routing:</strong> Routes quantum circuits based on severity: (1) Direct Execution, (2) Zero-Noise Extrapolation (ZNE), (3) Probabilistic Error Cancellation (PEC), or (4) Classical Solver Fallback.<br>
+              ● <strong>Audit Trail &amp; Telemetry Feed:</strong> Emits verifiable JSON execution manifests with estimated circuit success probabilities (ESP).
+            </div>
+
+            <div class="brief-section-title">3. Bi-Weekly Delivery Rhythm</div>
+            <div class="sprint-timeline">
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 1</span>
+                  <span class="sprint-weeks">Weeks 1–2</span>
+                </div>
+                <div class="sprint-box-title">Telemetry Modeling &amp; Ingestion</div>
+                <div class="sprint-box-desc">Ingest synthetic and real QPU calibration logs; establish normal operating baselines; build rule-based and statistical anomaly detectors.</div>
+              </div>
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 2</span>
+                  <span class="sprint-weeks">Weeks 3–4</span>
+                </div>
+                <div class="sprint-box-title">Triage Matrix &amp; Error Mitigation</div>
+                <div class="sprint-box-desc">Build severity-scoring engine; integrate Mitiq ZNE/PEC pipelines; suppress false-positive alarms on transient calibration jitter.</div>
+              </div>
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 3</span>
+                  <span class="sprint-weeks">Weeks 5–6</span>
+                </div>
+                <div class="sprint-box-title">Service Encapsulation &amp; Showcase</div>
+                <div class="sprint-box-desc">Expose triage API; run synthetic drift injection stress tests; provide reproducible audit logs for live demonstration.</div>
+              </div>
+            </div>
+
+            <div class="brief-section-title">4. Suggested Tooling &amp; Stack</div>
+            <div class="stack-chip-row">
+              <span class="stack-chip">Python 3.11+</span>
+              <span class="stack-chip">Mitiq (Error Mitigation)</span>
+              <span class="stack-chip">Qiskit Aer / FakeBackends</span>
+              <span class="stack-chip">NumPy / SciPy</span>
+              <span class="stack-chip">FastAPI / Typer CLI</span>
+              <span class="stack-chip">Pytest</span>
+            </div>
+          </div>
+
+          <!-- BRIEF 3 -->
+          <div class="project-brief-card">
+            <div class="brief-top-header">
+              <div>
+                <span class="enterprise-badge badge-stack">Brief 03 // Cybersecurity &amp; PQC Modernization</span>
+                <div class="brief-title">Enterprise Legacy Cryptographic Modernization &amp; NIST PQC Migration Pipeline</div>
+                <div class="brief-subtitle">Track: Cryptographic Engineering &amp; Modernization | Sector Case: Critical National Infrastructure</div>
+              </div>
+              <span class="sprint-badge" style="background:#eff6ff; color:#1d4ed8; border:1px solid #93c5fd;">Option 1 Active</span>
+            </div>
+
+            <div class="brief-section-title">1. Executive Context &amp; Problem Statement</div>
+            <div class="brief-text">
+              Critical national infrastructure and financial enterprises operate thousands of legacy endpoints relying on vulnerable public-key cryptography (RSA-2048, ECC P-256). With NIST ratifying FIPS 203 (ML-KEM) and FIPS 204 (ML-DSA), organizations face urgent "Harvest Now, Decrypt Later" mandates. Learners build an end-to-end cryptographic modernization pipeline: discovering legacy key assets, wrapping transport endpoints into hybrid quantum-safe tunnels (X25519 + ML-KEM-768), and benchmarking latency overhead under NIST CAVP A7970 test vectors.
+            </div>
+
+            <div class="brief-section-title">2. Learner Deliverables &amp; Technical Scope</div>
+            <div class="brief-text">
+              ● <strong>Cryptographic Asset Discovery:</strong> Scans certificate stores, SSH configurations, and API endpoints to construct a typed Cryptographic Bill of Materials (CBOM).<br>
+              ● <strong>Hybrid Key Encapsulation (KEM) Pipeline:</strong> Implements zero-downtime hybrid key exchange combining classical X25519 and post-quantum ML-KEM-768.<br>
+              ● <strong>NIST CAVP A7970 Conformance Harness:</strong> Tests cryptographic implementations against official NIST CAVP Known Answer Tests (KAT) to guarantee zero algorithmic deviation.<br>
+              ● <strong>Latency &amp; Fragmentation Audit:</strong> Measures TLS 1.3 handshake latency overhead (&lt; 12ms threshold) and MTU fragmentation across live simulated tunnels.
+            </div>
+
+            <div class="brief-section-title">3. Bi-Weekly Delivery Rhythm</div>
+            <div class="sprint-timeline">
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 1</span>
+                  <span class="sprint-weeks">Weeks 1–2</span>
+                </div>
+                <div class="sprint-box-title">CBOM Discovery &amp; Profiling</div>
+                <div class="sprint-box-desc">Build automated discovery scanner for legacy RSA/ECC certificates; parse X.509 chains; classify vulnerability risk tiers.</div>
+              </div>
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 2</span>
+                  <span class="sprint-weeks">Weeks 3–4</span>
+                </div>
+                <div class="sprint-box-title">Hybrid KEM &amp; CAVP Validation</div>
+                <div class="sprint-box-desc">Integrate liboqs-python; build dual-key encapsulation; run automated NIST CAVP A7970 test suites.</div>
+              </div>
+              <div class="sprint-box">
+                <div class="sprint-box-header">
+                  <span class="sprint-badge">Sprint 3</span>
+                  <span class="sprint-weeks">Weeks 5–6</span>
+                </div>
+                <div class="sprint-box-title">Live Tunnel Audit &amp; Showcase</div>
+                <div class="sprint-box-desc">Benchmark handshake latency on simulated WAN; deliver production migration guide; conduct closing 45-min live demo.</div>
+              </div>
+            </div>
+
+            <div class="brief-section-title">4. Suggested Tooling &amp; Stack</div>
+            <div class="stack-chip-row">
+              <span class="stack-chip">Python 3.11+</span>
+              <span class="stack-chip">liboqs-python (Open Quantum Safe)</span>
+              <span class="stack-chip">Cryptography / pyOpenSSL</span>
+              <span class="stack-chip">Scapy / Wireshark</span>
+              <span class="stack-chip">NIST CAVP KAT Datasets</span>
+              <span class="stack-chip">Git / GitHub</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- EVALUATION CRITERIA RUBRIC -->
+        <div class="section-headline">Sprint Evaluation Criteria &amp; Capstone Defense Rubric</div>
+        <table class="stack-table" style="margin-bottom:32px;">
+          <thead>
+            <tr>
+              <th style="width:180px;">Dimension</th>
+              <th style="width:80px;">Weight</th>
+              <th>Evaluation Standards &amp; Verification Metrics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Architecture &amp; Clean Code</strong></td>
+              <td><span class="layer-badge" style="background:#00C896; color:#001926;">25%</span></td>
+              <td>Modular separation of concerns; clean typing via Pydantic; zero hardcoded secrets or credentials; adherence to PEP 8 standards.</td>
+            </tr>
+            <tr>
+              <td><strong>Resiliency &amp; Edge Handling</strong></td>
+              <td><span class="layer-badge" style="background:#7c3aed; color:#ffffff;">25%</span></td>
+              <td>Survives malformed inputs, ill-conditioned constraint matrices, and transient hardware timeouts without crashing; deterministic error logging.</td>
+            </tr>
+            <tr>
+              <td><strong>Classical vs. Quantum Baseline</strong></td>
+              <td><span class="layer-badge" style="background:#0284c7; color:#ffffff;">25%</span></td>
+              <td>Rigorous empirical comparison against established classical benchmarks (Gurobi 11.0, COIN-OR CBC, classical AES-GCM); zero unsubstantiated quantum hype.</td>
+            </tr>
+            <tr>
+              <td><strong>Documentation &amp; Live Demo</strong></td>
+              <td><span class="layer-badge" style="background:#334155; color:#ffffff;">25%</span></td>
+              <td>Comprehensive README with setup instructions, passing CI test harness on GitHub Actions, and an unscripted, working 45-minute technical demonstration.</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <!-- ==============================================
            TAB 3: SINGAPORE QUANTUM STACK
       =============================================== -->
       <div class="tab-panel" id="tab-stack">
@@ -1525,6 +1949,7 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
           'enterprise': 'Enterprise Solutions & Quantum Stack Offerings',
           'insights': 'Insights',
           'rfcs': 'RFC Specifications',
+          'briefs': 'Applied Project Briefs (NTU PaCE x QShift)',
           'stack': 'Singapore Quantum Stack',
           'triad': 'The Triad Architecture',
           'terminal': 'Developer Terminal'
@@ -1618,6 +2043,7 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
       if (cmd === 'help') {
         cliOutput.textContent += `Available commands:
   enterprise    Display enterprise engagement tracks & commercial CTAs
+  briefs        Display NTU PaCE x QShift applied capstone project briefs
   status        Check health of regional quantum nodes & PQC validator
   rfc list      Display active RFC candidate specifications
   rfc <id>      View specific RFC (e.g. 'rfc 01', 'rfc 06')
@@ -1634,6 +2060,16 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
   Engagement Tracks: 4-Week Sprint | 12-Week Pilot | Annual Sovereign Retainer
   Direct Contact: hello@qshiftlab.com | Switch tab via: switchTab('enterprise')`;
         switchTab('enterprise');
+      } else if (cmd === 'briefs' || cmd === 'capstone' || cmd === 'ntu' || cmd === 'sprints') {
+        cliOutput.textContent += `NTU PaCE x QSHIFT APPLIED INDUSTRY PROJECT BRIEFS (6-WEEK SPRINTS):
+  Brief 01: Industrial Problem-to-QUBO Compilation & Hamiltonian Ingestion Pipeline
+  Brief 02: QPU Telemetry & Noise Mitigation Triage Pipeline
+  Brief 03: Enterprise Legacy Cryptographic Modernization & NIST PQC Migration Pipeline
+
+  Mentors: Gwendalynn Lim (Lead) & Benjamin Lim (Reviewer) | Target: Squads of 2-3 Builders
+  Cadence: 3 Two-Week Sprints, Weekly 90-Min Code Reviews, Open-Source MVP Deliverable.
+  Switching to Applied Briefs tab...`;
+        switchTab('briefs');
       } else if (cmd === 'contact') {
         cliOutput.textContent += `QShift Institutional Inquiries: hello@qshiftlab.com
 Physical Hub: Singapore // CQT & NTU Quantum Ecosystem
