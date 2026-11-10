@@ -979,7 +979,7 @@
 
 
     /* -------------------------------------------
-       APPLIED PROJECT BRIEFS (NTU PaCE x QSHIFT)
+       APPLIED PROJECT BRIEFS & QUANTUM STUDENT PORTAL
     ------------------------------------------- */
     .brief-meta-grid {
       display: grid;
@@ -1132,8 +1132,8 @@
       <div class="nav-item" id="btn-rfcs" data-tooltip="RFC Specifications" onclick="switchTab('rfcs')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
       </div>
-      <!-- Applied Project Briefs / NTU PaCE -->
-      <div class="nav-item" id="btn-briefs" data-tooltip="Applied Project Briefs (NTU PaCE x QShift)" onclick="switchTab('briefs')">
+      <!-- Applied Project Briefs & Quantum Student Portal -->
+      <div class="nav-item" id="btn-briefs" data-tooltip="Applied Project Briefs &amp; Student Portal" onclick="switchTab('briefs')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
       </div>
       <!-- Singapore Stack -->
@@ -1377,7 +1377,7 @@
             </div>
             <div class="contact-meta-item">
               <strong>Research Node</strong>
-              <span>Singapore // CQT &amp; NTU Quantum Ecosystem Hub</span>
+              <span>Singapore // CQT &amp; National Quantum Ecosystem Hub</span>
             </div>
             <div class="contact-meta-item">
               <strong>Confidentiality</strong>
@@ -1523,22 +1523,22 @@
       </div>
 
       <!-- ==============================================
-           TAB: APPLIED PROJECT BRIEFS (NTU PaCE x QSHIFT)
+           TAB: APPLIED PROJECT BRIEFS & QUANTUM STUDENT PORTAL
       =============================================== -->
       <div class="tab-panel" id="tab-briefs">
-        <div class="category-kicker">Academic &amp; Industry Sprints // NTU PaCE x QShift</div>
+        <div class="category-kicker">Applied Sprints // Sovereign Quantum Student Portal</div>
         <h1 class="page-title">Applied Quantum Industry Project Briefs</h1>
         <p class="page-desc">
-          Structured 6-week applied engineering sprints designed for NTU PaCE learners (SkillsFuture Career Transition Programme — Data Science &amp; AI) and university researchers. Builders form squads of 2–3 to formulate, benchmark, and deploy functioning open-source Python MVPs addressing real-world industrial and sovereign quantum workloads.
+          Structured 6-week applied engineering sprints designed for the National Quantum Student Portal, university research fellows, and high-conviction engineering candidates. Builders form squads of 2–3 to formulate, benchmark, and deploy functioning open-source Python MVPs addressing real-world industrial and sovereign quantum workloads.
         </p>
 
         <!-- Action CTAs -->
         <div class="enterprise-hero-ctas">
-          <a href="./docs/NTU_PaCE_x_Cybrdeck_Applied_Industry_Project_Briefs.pdf" target="_blank" class="btn-primary-mint">
+          <a href="./docs/QShift_Applied_Quantum_Industry_Project_Briefs.pdf" target="_blank" class="btn-primary-mint">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-            Download NTU PaCE Briefs (PDF)
+            Download Applied Project Briefs (PDF)
           </a>
-          <a href="mailto:hello@qshiftlab.com?subject=NTU%20PaCE%20x%20QShift%20Capstone%20Squad%20Inquiry" class="btn-outline">
+          <a href="mailto:hello@qshiftlab.com?subject=Quantum%20Student%20Portal%20Applied%20Sprint%20Inquiry" class="btn-outline">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
             Propose Capstone Squad / Register
           </a>
@@ -1964,7 +1964,7 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
           'enterprise': 'Enterprise Solutions & Quantum Stack Offerings',
           'insights': 'Insights',
           'rfcs': 'RFC Specifications',
-          'briefs': 'Applied Project Briefs (NTU PaCE x QShift)',
+          'briefs': 'Applied Project Briefs & Student Portal',
           'stack': 'Singapore Quantum Stack',
           'triad': 'The Triad Architecture',
           'terminal': 'Developer Terminal'
@@ -2058,7 +2058,7 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
       if (cmd === 'help') {
         cliOutput.textContent += `Available commands:
   enterprise    Display enterprise engagement tracks & commercial CTAs
-  briefs        Display NTU PaCE x QShift applied capstone project briefs
+  briefs        Display Quantum Student Portal applied project briefs
   status        Check health of regional quantum nodes & PQC validator
   rfc list      Display active RFC candidate specifications
   rfc <id>      View specific RFC (e.g. 'rfc 01', 'rfc 06')
@@ -2075,8 +2075,8 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
   Engagement Tracks: 4-Week Sprint | 12-Week Pilot | Annual Sovereign Retainer
   Direct Contact: hello@qshiftlab.com | Switch tab via: switchTab('enterprise')`;
         switchTab('enterprise');
-      } else if (cmd === 'briefs' || cmd === 'capstone' || cmd === 'ntu' || cmd === 'sprints') {
-        cliOutput.textContent += `NTU PaCE x QSHIFT APPLIED INDUSTRY PROJECT BRIEFS (6-WEEK SPRINTS):
+      } else if (cmd === 'briefs' || cmd === 'capstone' || cmd === 'portal' || cmd === 'sprints' || cmd === 'student') {
+        cliOutput.textContent += `QUANTUM STUDENT PORTAL // APPLIED INDUSTRY PROJECT BRIEFS (6-WEEK SPRINTS):
   Brief 01: Industrial Problem-to-QUBO Compilation & Hamiltonian Ingestion Pipeline
   Brief 02: QPU Telemetry & Noise Mitigation Triage Pipeline
   Brief 03: Enterprise Legacy Cryptographic Modernization & NIST PQC Migration Pipeline
@@ -2087,7 +2087,7 @@ Type 'help' to inspect available commands, 'status' for hardware telemetry, or '
         switchTab('briefs');
       } else if (cmd === 'contact') {
         cliOutput.textContent += `QShift Institutional Inquiries: hello@qshiftlab.com
-Physical Hub: Singapore // CQT & NTU Quantum Ecosystem
+Physical Hub: Singapore // CQT & National Quantum Ecosystem
 Response SLA: < 24 Hours for enterprise and sovereign briefs.`;
       } else if (cmd === 'status') {
         cliOutput.textContent += `[OK] SG-Central CQT Telemetry Node: ACTIVE (Latency: 1.4ms)
