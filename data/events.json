@@ -72,7 +72,7 @@
     "summary": "Annual regional symposium gathering hardware vendors, compiler engineers, and quantum algorithm researchers across the Asia-Pacific corridor."
   },
   {
-    "id": "rss-676105",
+    "id": "rss-201571",
     "title": "The control problem: Making quantum computing work | Innovation and Entrepreneurship | NTU Singapore - Nanyang",
     "date": "2026-07-20",
     "endDate": "2026-07-20",
@@ -84,7 +84,7 @@
     "summary": "The control problem: Making quantum computing work | Innovation and Entrepreneurship | NTU Singapore  Nanyang Technological University - NTU Singapore"
   },
   {
-    "id": "rss-900037",
+    "id": "rss-658765",
     "title": "DIS and DSTA Collaborate with IBM to Explore Quantum Computing for Mission Planning, Logistics Optimisation - ",
     "date": "2026-07-21",
     "endDate": "2026-07-21",
@@ -96,7 +96,7 @@
     "summary": "DIS and DSTA Collaborate with IBM to Explore Quantum Computing for Mission Planning, Logistics Optimisation  MINDEF Singapore"
   },
   {
-    "id": "rss-363187",
+    "id": "rss-012543",
     "title": "SAF explores quantum computing for mission, logistics planning - The Straits Times",
     "date": "2026-07-21",
     "endDate": "2026-07-21",
@@ -108,7 +108,7 @@
     "summary": "SAF explores quantum computing for mission, logistics planning  The Straits Times"
   },
   {
-    "id": "rss-021915",
+    "id": "rss-672728",
     "title": "Singapore’s military to explore quantum computing for mission planning - Computer Weekly",
     "date": "2026-07-22",
     "endDate": "2026-07-22",
@@ -120,19 +120,7 @@
     "summary": "Singapore’s military to explore quantum computing for mission planning  Computer Weekly"
   },
   {
-    "id": "rss-699304",
-    "title": "Quantinuum and Oracle bring Helios quantum computing to OCI - CRN Asia",
-    "date": "2026-08-12",
-    "endDate": "2026-08-12",
-    "location": "Global / Hybrid Feed",
-    "category": "All Domains",
-    "organizer": "CRN Asia",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZkduOFVkVi1DTU5HaUxYcFZyaEFkWXRqVmd3VkRoVm5jU3EtbTVoOW5oOUVJX2ZRMXNSQTNtdEJXbE10cGRibG9XMmZ2SGdqTHdmNjdsbzYwclFhMG5oa3Iyc3ZkaXRBMGNvelVKTkRUYXNLX2FPTWlaRzE4Y3VQa0NiN3hOaG92QjVLMjFncVR0UXJZVkNrTVUwMERTQnhi?oc=5",
-    "badge": "Global Wire",
-    "summary": "Quantinuum and Oracle bring Helios quantum computing to OCI  CRN Asia"
-  },
-  {
-    "id": "rss-930946",
+    "id": "rss-264059",
     "title": "Quantinuum to Partner with the Singapore Institute of Technology to Help Develop Singapore’s Future Quantum Wo",
     "date": "2026-08-15",
     "endDate": "2026-08-15",
@@ -144,22 +132,10 @@
     "summary": "Quantinuum to Partner with the Singapore Institute of Technology to Help Develop Singapore’s Future Quantum Workforce  Quantum Computing Report"
   },
   {
-    "id": "rss-049720",
-    "title": "German startup NVision shows new path to quantum computing chips in Nature paper - CNA",
-    "date": "2026-10-29",
-    "endDate": "2026-10-29",
-    "location": "Global / Hybrid Feed",
-    "category": "All Domains",
-    "organizer": "CNA",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNelUxQkxfOGVDa2d1N244cU9yemxVUzVRYWFzREE1anZ5Z3hKMmpTaldvWmNRdERqTk5XLTZTRDNheTFHSXJVZkc0UENyY2Vwd2YwVXVISllza2ZNTmFwdVdjTzYtZkNjYjhRSERmbTQ2NmNjZDZnLTlUNGFiQjY0T09jWWYwWG90bkY0VGNFTk0yWDZKMGRUTXpnRjE2bDZ6TUJxWlJVZmZDRnJKUmRfN1h5c0ptUVo4Y0k2Mi0wcG5sQ3lZ?oc=5",
-    "badge": "Global Wire",
-    "summary": "German startup NVision shows new path to quantum computing chips in Nature paper  CNA"
-  },
-  {
-    "id": "rss-643711",
+    "id": "rss-144599",
     "title": "Universal Quantum to establish first R&D Competency Centre outside Europe in Singapore - Singapore Economic De",
-    "date": "2026-11-02",
-    "endDate": "2026-11-02",
+    "date": "2026-11-03",
+    "endDate": "2026-11-03",
     "location": "Global / Hybrid Feed",
     "category": "All Domains",
     "organizer": "Singapore Economic Development Board (EDB)",
@@ -168,87 +144,111 @@
     "summary": "Universal Quantum to establish first R&D Competency Centre outside Europe in Singapore  Singapore Economic Development Board (EDB)"
   },
   {
-    "id": "rss-145505",
-    "title": "Monetary Authority Of Singapore Invites Banks To Comment On Quantum-safe Guidance - Quantum Zeitgeist",
+    "id": "rss-515009",
+    "title": "Today’s network decisions will shape post-quantum migration - Frontier Enterprise",
     "date": "2026-11-06",
     "endDate": "2026-11-06",
     "location": "Global / Hybrid Feed",
     "category": "Post-Quantum Security (PQC)",
-    "organizer": "Quantum Zeitgeist",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0tLV1ZUV2hVc0Qzd0sybDRPOFpFa3JBU3Y2NUpMMXdEemFtNUtKbmhSdE1pR2o3N043TmgyYkhWWm51d3BHM0VoTVgtQ2FQUWsyMktJelpzd0dBV3J0Nkw5RHc2UEROS2lqT3lOWW9nUTdoT0RDVmtnekE2QUYtZFNrREI?oc=5",
-    "badge": "Global Wire",
-    "summary": "Monetary Authority Of Singapore Invites Banks To Comment On Quantum-safe Guidance  Quantum Zeitgeist"
-  },
-  {
-    "id": "rss-260378",
-    "title": "MAS Wants Singapore’s Financial Sector Quantum-Safe by 2034 - Fintech Singapore",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
-    "location": "Global / Hybrid Feed",
-    "category": "Fintech & Risk",
-    "organizer": "Fintech Singapore",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMHYyU05xbEdERnJfcmFmRFF0TFB5dVkwcy16Y2gwWVhQakwwY0taTWRDeFVFUWhLWTE2QlR3MmVaOTFlNUZNdWVqT25meGVxVGtNRF85ekVyMEZiemZicWF0Q2NNbnVaUFpickFiaVlFeV9pa0h3UmVOU1pON0R0aEtsWThMaUNKVXFwaWYwU3Jjdw?oc=5",
+    "organizer": "Frontier Enterprise",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeGhvbThWRy1jX1FYWEVtbGxObjlkSDdkTG9yVC1jR1VYdk02eFVPSDViY1o1MzZ6LVRRVDQ0Y3IyVzdJX0hSUEd2bXV3cEhIN1pkLWg1OTFva2tSUG81NXgzWk0zYkRuSlppVjNMc241MlR4WWExbjktNEFoZHJjbzlpbEFSaEh2TVJWQ2hyQlhPOUpKZ2dYOTJ1Zw?oc=5",
     "badge": "Security Wire",
-    "summary": "MAS Wants Singapore’s Financial Sector Quantum-Safe by 2034  Fintech Singapore"
+    "summary": "Today’s network decisions will shape post-quantum migration  Frontier Enterprise"
   },
   {
-    "id": "rss-372795",
-    "title": "Fahmi pushes quantum-safe communications as cybersecurity enters a new era - Malay Mail",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
+    "id": "rss-567347",
+    "title": "Less than 10% of S'pore financial firms are ready for quantum computing threat: ST Engineering exec - The Busi",
+    "date": "2026-11-10",
+    "endDate": "2026-11-10",
+    "location": "Global / Hybrid Feed",
+    "category": "All Domains",
+    "organizer": "The Business Times",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVEVPZmVlc3VDejcwaEhaVnNQeFJYanJFNFpIWG1GT0J1Uko1ZWwwZnVzMXQ1T2xRNjl4RzY4VE40Skc5UWVxaEZPOC1rYTRCc3pGcmRnLWhVc0owaENzMTFQWURMTER5N1k3XzVDVkZZak5wd2NIOWJwN0dUakhteHhvWW4yckhuNkVPek1BSGtBbnc5MnltSVRqU3g3TGtJdmJ0V2hRRmFtNFdIRkJrR1NCN182TkhVVUIwSm9HLXVxR1R2MGtyUlJhbXdIYjRHUE42akxZMHA4cWdvY0p1UUg3UHJFMTRyVWUtOF9jOXQ0cTZGckF3QlNENA?oc=5",
+    "badge": "Global Wire",
+    "summary": "Less than 10% of S'pore financial firms are ready for quantum computing threat: ST Engineering exec  The Business Times"
+  },
+  {
+    "id": "rss-801309",
+    "title": "ITU PP-26: Malaysia developing national plan for post-quantum cryptography, says Fahmi - Malay Mail",
+    "date": "2026-11-10",
+    "endDate": "2026-11-10",
     "location": "Global / Hybrid Feed",
     "category": "Post-Quantum Security (PQC)",
     "organizer": "Malay Mail",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNURxdEYyLUNIbk5mSzB4a0gyVkVLLWlMY080NWdXMXpRMVBQY216QUxxUmtZbHc2aU9Jd19rWEhWMHJyN000d0dqWWdpd21PSVdISkRpdFJnaGxWMG5pdWlDS0IyRXhNQ1o2Snd0YU00eV8wWUVUVmJjNXlTUmdxZ2tLaFRkVGZvdzRhV0VOUm5XcmdVYWktLVEwaFdUaV93MWhEYTNyUlVpcXJXaWlNWXpWVHAwM0V4amZKMDVDSjdJWEl3TWkxcE85SE_SAdIBQVVfeXFMTzRWWkRXbzJNLUpjVk5vTnFUVXU4QW5qbGE0TndxUllqYzdqeURZSFdFRG4zN0g1anNuTXItRGMtUXBGQzJ4LXlGbWllSk1RZFJ0WGhuQzJxbnRKNkhTeHdwY2k5TVVfX29SMWxGWE0xRmpOc2prS1VHZ3F4MkZvS0dSUk41NnNodi1DSFVRd1Z5T2ZqbnItaDNvUzJoUVNXYUxYZjZTbDlJZ2dGMENsM1R0aUZ3UE5ObDRzUldOLXNXcW5UX3BZMnhEdjJWVWszdGZR?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYjQteTNFQkItRFdLUEd3YWxlQ2VFYUVIQk1KVVVqT0lfUkdOdWhLTHIzZjVoX3h5UFZ0emVrdnJUWHNGbG9ScGF0cVlac1VRYjJMN3VSR05nQXpSNkc5V2wweUZreTlVRFNKRU5xZTltcVQwLTlVb0ZkWUM5M2lxNmU1Y1R6RC1lZzN4aWEwdXI5elR2ZXJ3RUxCOTBaSDllZEUza01fYy1GMXJHaUFpQ0ROaGVzb2xpNzhJSTRhSWpHc2hVZnBNdV9DcHZMTWlOcUhCVG9wWGJkUdIB3wFBVV95cUxQUl9qejV5clVJY1M1NHgyWHBkMDI3ckJ6MExad0dMcTdHcU5XTXM5MVM2ZzFkVXN3dDcybzNPai1rbE5QbzNXa2NISjZwQkNuOW1kUTJPZTBUMU5IMHFkc1FOV044dFY1ZUF4bWprQkRLLWlIeVdjdFNxSjRLTF9JUV94eWtGdEFYWUVTNzZGdXFBWnZZc1FrUE9PU2M1UjJDR3pJLUVZcnFRVUd0ZHltR3hnbUJCOTloejdiNlFuaEswOXVwSWNJQ0tndDVkNXBjQnZHQkVKSGtNQTBMblpN?oc=5",
     "badge": "Security Wire",
-    "summary": "Fahmi pushes quantum-safe communications as cybersecurity enters a new era  Malay Mail"
+    "summary": "ITU PP-26: Malaysia developing national plan for post-quantum cryptography, says Fahmi  Malay Mail"
   },
   {
-    "id": "rss-949269",
-    "title": "Malaysia developing national plan for post-quantum cryptography – Fahmi - NST Online",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
+    "id": "rss-102853",
+    "title": "AMD to invest in PsiQuantum to advance quantum computing infrastructure - CNA",
+    "date": "2026-11-12",
+    "endDate": "2026-11-12",
+    "location": "Global / Hybrid Feed",
+    "category": "All Domains",
+    "organizer": "CNA",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVUw3NFpWd05uZXY1WTFKd0hnQnR5SUtTVVAzY1FvZmpqUGxUZmNzOUZCZEZ4dEJjQU9tNnBhTTJib2R2QUVuZlhrMF82azJOYVV3eVJvb0ZYTE5yaUV4eUxNMldlZTFYdFhhVXZkR2ExWlZRSTRobEM5Z1UxakdlNmM3X2p5c2xfUTFJbmNROWZxZkFkRDVaajljSHB6OWZid3RITjQ3RHNzdjROaU51SXlzQXU?oc=5",
+    "badge": "Global Wire",
+    "summary": "AMD to invest in PsiQuantum to advance quantum computing infrastructure  CNA"
+  },
+  {
+    "id": "rss-446973",
+    "title": "Post-Quantum Cryptography is a concern for today - Techzine Global",
+    "date": "2026-11-12",
+    "endDate": "2026-11-12",
     "location": "Global / Hybrid Feed",
     "category": "Post-Quantum Security (PQC)",
-    "organizer": "NST Online",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDEtcUtKd2FPc1FheTYzQzhVUnFCc19UMlNYZmZaZ3ZtX1lLRy1MNGVIM3RNaUdEb1JNaWh0M1VPbWZ2ZlNZQmVuSXVrb3NvNnR5dXI5TnlmMlZ4VDdzTHJuNzRCdlgzLXB0ZEZVWV94WTFfS2pXUUQtbmpqdzR1anpYblFTQ0hwUV9nZEJGSXhFb2h3ZXVaRGUyV2hnUUY2NXQxN3NPYVdKN2xsT3VZT2JWQjdqczY4ckRpQjBkVHV6cmtw0gHKAUFVX3lxTE9JR29JYXVHSVNXc0tDTXIxZGE0LWhUMXFLZXd3NzlPQWR3TkVfY0R5U3VWb3NvNzg4aDhkMkVOd3Y1cWlqZTlqeGFsUGZOck1HQXp6V244MXdGaFhUZFFranZObWxXMjNodExqOTVPSWx0T3FlbTI1MWxGcmNnUHlUd2t4a25QYW5mNGhjbHRlYzBXY1pveG1lMHZFTUFCVXZvd1pheHo0X0pLWVNOeEdXSlhWb2dxMTgtTlZ1T1dmUENUSUdWMTlQaEE?oc=5",
+    "organizer": "Techzine Global",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0xMd3YzWGRic1VxMWZCLXVINHlBTi01eWZCSms0UV9FY2R6VFYzYXpaeGUwR1pqOS1DVlFYU3ZKeXRzc2RneF9NWW1VemV6c2NhUmNWNEFnTFlvTVFHRTZZdEtadVVySWw3Q0VSMEhtQlZ6Sm8xY3ZFd0FPcjJqaFVxU0R5clR5RWhrZlIzUjJaQngwTk5Oc2k4Zw?oc=5",
     "badge": "Security Wire",
-    "summary": "Malaysia developing national plan for post-quantum cryptography – Fahmi  NST Online"
+    "summary": "Post-Quantum Cryptography is a concern for today  Techzine Global"
   },
   {
-    "id": "rss-858065",
-    "title": "SEALSQ and IC'Alps Advance Chip-Level Post-Quantum Security for Connected Medical Devices - Investing News Net",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
+    "id": "rss-732503",
+    "title": "GSA Seeks Industry Input on Post-Quantum Cryptography Readiness - ExecutiveGov",
+    "date": "2026-11-12",
+    "endDate": "2026-11-12",
     "location": "Global / Hybrid Feed",
     "category": "Post-Quantum Security (PQC)",
-    "organizer": "Investing News Network",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMmpBalNOSmU4TjNlckUwRWpyQ3lxTjFRekdWTnV1LWZPeDMtVUo2TGc5UV9aXy1ialI1bFpSckpQMzlZcWpDRkJSYWxuLTZFWkZrc2RobGhwSE8tZjIxaXJ6NGNTbjM1eUlkdlZQTUUzbVVyRVdnQVJzTWNOd2tVNUZvSmUzbXZkZ1FqeGR6ZVdkUi1qbWNDalUzblZYOTN1MFhsZkM4RDlZZEt0NmdGQ2RZOS1ZNlk?oc=5",
+    "organizer": "ExecutiveGov",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVI1SXpqbWJJZEJFV003QXMxRy1Pd2hNRU9UZWs3RE5VMXBuanYyUHRCUWZOdmhRb1RwelNRcV9ySmlyRUhkb3JBTjd2Rmo3NTYzN0tQWEYtNXZrTDJGVm5zRHo3V3daZlNPVUt2WGhZTUdNYnQwRktnS05FWXd2X1drdkN6eDN3?oc=5",
     "badge": "Security Wire",
-    "summary": "SEALSQ and IC'Alps Advance Chip-Level Post-Quantum Security for Connected Medical Devices  Investing News Network"
+    "summary": "GSA Seeks Industry Input on Post-Quantum Cryptography Readiness  ExecutiveGov"
   },
   {
-    "id": "rss-441315",
-    "title": "Post-Quantum Cybersecurity: Why Businesses Need a Cryptographic Inventory Before They Replace Their Algorithms",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
+    "id": "rss-572205",
+    "title": "PsiQuantum, AMD Expand Partnership on Quantum Computing Infrastructure - EE Times Asia",
+    "date": "2026-11-13",
+    "endDate": "2026-11-13",
     "location": "Global / Hybrid Feed",
-    "category": "Fintech & Risk",
-    "organizer": "Global Banking & Finance Review",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNWo0UnFJeU1Mb1d4Q2dhd1Bxcy16RVJ6X2VfVFVCVkQ0alQ1a3NNcXhSSnZTaFFsSnFEb2RpMzBIT0s0YXZEanIwRFZsR0psWXo1alNkS2tLU1FQQXRJT1pLRnVNQm8tcDRtMFpsSEo0emNlcXh6LWtzSGIxUjhXSFdadHRCT0pXQlQwVExTbVNFSmJqaVBCRmdTNDg5a1pnS2hqdEJYbGU0MUJham9IbGlWSFVGZ3UtNlFMdDYtbjByT2xoNVlJVVhyS2tMeW0xQko3c0JXT0g5dk1NOVFYUEJkZDg?oc=5",
-    "badge": "Security Wire",
-    "summary": "Post-Quantum Cybersecurity: Why Businesses Need a Cryptographic Inventory Before They Replace Their Algorithms  Global Banking & Finance Review"
+    "category": "All Domains",
+    "organizer": "EE Times Asia",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTm1OU3JJM0tMS1h0aWY0ajdhQ1QxNFlXZjRETFh3dmlpX1YweGpFWFpCZzNpNDBobjVFaDgydS1fdXd1aFdwZmdBdnFsaVVzOFQySUlEQU81VUxqdWw2d3NPcUR6Mm1md0lJYmJqWkxPVHdrMm5sVTkxT09rbUNabVUwSXFzZXMyd2ZUQnV0anEtOW43RUY1TTFn?oc=5",
+    "badge": "Global Wire",
+    "summary": "PsiQuantum, AMD Expand Partnership on Quantum Computing Infrastructure  EE Times Asia"
   },
   {
-    "id": "rss-579643",
-    "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security - infoq.com",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
+    "id": "rss-153806",
+    "title": "Malaysia only Asean country at highest tier for post-quantum cryptography readiness, says Zahid - The Star",
+    "date": "2026-11-13",
+    "endDate": "2026-11-13",
     "location": "Global / Hybrid Feed",
     "category": "Post-Quantum Security (PQC)",
-    "organizer": "infoq.com",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1icEFBWVhSYjN4TkRRaUExV0R6NjJRay0yc0NMTUVnX3F6WlZlT0NYMlE3bkVpMC1aTnF2M2NzNkN4TXluNmliVnMxUS12QWc0ZHJJM1p1S2cwT2JkU1VoMUljSlFZZXJiYzNoRlpXUUJMZmt3?oc=5",
+    "organizer": "The Star",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZDhUQ1lFS191ZVkyQVd3NVROc2l2cWQ5WUpLckdOb0pCeVF5VDVIUkJCYld4YzR6dnZ5MEltZjMwWld3elRBTWlIRGZwdFd2NVQzdkpaUE5ScFVHMzYyVVZ1OF9JNXpNWVlvRF9VTG1GblNsMnpoQWF6Q3lHNjM1emVhYlZkNE1KSVp6Y3RraUdmUU9XcmxFZW5wbHZFWWVndjRueVVQUEkwZDVNN2NhWVF5V05Jd0hSWDQ3NmQxSXlVNnQzdHJ3bnpJQjhBcnRuWEpES2NwMk9Ed2NZ?oc=5",
     "badge": "Security Wire",
-    "summary": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security  infoq.com"
+    "summary": "Malaysia only Asean country at highest tier for post-quantum cryptography readiness, says Zahid  The Star"
+  },
+  {
+    "id": "rss-289653",
+    "title": "Malaysia only ASEAN nation to attain Tier 1 post-quantum cybersecurity readiness - The Vibes",
+    "date": "2026-11-13",
+    "endDate": "2026-11-13",
+    "location": "Global / Hybrid Feed",
+    "category": "Post-Quantum Security (PQC)",
+    "organizer": "The Vibes",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU3VaLUpVNDU0b1cwN0pJUk1wVGVYd0k5QWF6alJ0LUQxQ21ISHhualBtWTdPT044eElXWmU2N1NxazRZYVNiSnBxcUEtcWh0dGVKc0NlU28yVjF5T0dYSHZaYm91eFQwaGJyR1VEVTVBY0ttSXdPLVM3TEJEOFpNTm9jQjNuOGJ4QVg0WWlSVnNJTmpjWENZM0trZEZraTVXdDNheU1mZkZ4c05nc0hwbnkwVDBhUVRKNnk5VlotaXlvNGFV?oc=5",
+    "badge": "Security Wire",
+    "summary": "Malaysia only ASEAN nation to attain Tier 1 post-quantum cybersecurity readiness  The Vibes"
   }
 ]
